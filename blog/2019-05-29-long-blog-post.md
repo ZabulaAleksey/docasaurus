@@ -1,44 +1,44 @@
 ---
 slug: long-blog-post
-title: Long Blog Post
+title: Длинная публикация в блоге
 authors: yangshun
 tags: [hello, docusaurus]
 ---
 
-This is the summary of a very long blog post,
+Это краткое описание очень длинной публикации.
 
-Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
+Используй комментарий `<!--` `truncate` `-->`, чтобы ограничить размер публикации в списке.
 
 <!-- truncate -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Это демонстрационный абзац длинной публикации. Он показывает, как объёмный текст выглядит на странице блога.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Следующий абзац продолжает пример и помогает проверить интервалы, ширину строки и ритм чтения.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Содержимое здесь не несёт предметного смысла и используется только как заполнитель макета.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Ещё один демонстрационный абзац позволяет увидеть длинную страницу при прокрутке.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Такой текст удобно использовать для проверки отображения публикаций на разных экранах.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Абзацы разделены пустыми строками и должны сохранять читаемую вертикальную структуру.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Демонстрационная публикация продолжается, чтобы страница оставалась достаточно длинной.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Этот фрагмент также служит заполнителем для визуальной проверки шаблона блога.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+При необходимости текст можно заменить реальным содержимым без изменения структуры файла.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Длинная публикация помогает проверить навигацию, прокрутку и расположение элементов страницы.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Здесь сохраняется нейтральный русский текст без дополнительных технических требований.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Ещё один абзац поддерживает необходимый объём демонстрационной страницы.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Макет должен одинаково хорошо показывать начало, середину и конец длинного материала.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Этот текст можно использовать для проверки типографики и контраста темы.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Предпоследний абзац завершает демонстрацию объёмного содержимого публикации.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+Последний абзац завершает длинную демонстрационную публикацию.

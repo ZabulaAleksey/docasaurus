@@ -1,41 +1,41 @@
-# Website
+# Веб-сайт
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Этот сайт создан с помощью [Docusaurus](https://docusaurus.io/) — современного генератора статических сайтов.
 
-## Installation
+## Установка
 
 ```bash
 yarn
 ```
 
-## Local Development
+## Локальная разработка
 
 ```bash
 yarn start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Команда запускает локальный сервер разработки и открывает окно браузера. Большинство изменений отображается сразу, без перезапуска сервера.
 
-## Build
+## Сборка
 
 ```bash
 yarn build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Команда создаёт статическое содержимое в каталоге `build`, которое можно разместить с помощью любого сервиса хостинга статических файлов.
 
-## Deployment
+## Развёртывание
 
-Using SSH:
+С использованием SSH:
 
 ```bash
 USE_SSH=true yarn deploy
 ```
 
-Not using SSH:
+Без использования SSH:
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+GIT_USER=<имя пользователя GitHub> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Если для хостинга используется GitHub Pages, эта команда позволяет удобно собрать сайт и отправить его в ветку `gh-pages`.
