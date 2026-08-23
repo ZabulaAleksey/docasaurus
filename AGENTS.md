@@ -1,14 +1,24 @@
-# ToeMath - local instructions
+# ToeMath — локальные инструкции
 
-Before working here, read `~/.codex/AGENTS.md`.
+Перед работой прочитай `~/.codex/AGENTS.md`; этот файл содержит только project-specific delta. Этапы находятся в `prompts/STAGES.md`, состояние — в `docs/AI_STATUS.md`.
 
-## Project context
+## Контекст
 
-- Docusaurus documentation site written in TypeScript.
-- Keep documentation content in `docs/`, posts in `blog/`, and reusable UI in `src/`.
-- Preserve sidebar IDs, document routes, links, and localization metadata when moving content.
-- This checkout uses `package-lock.json`; prefer `npm ci` over introducing another package manager.
-- Validate with `npm run typecheck` and `npm run build`; use `npm start` for local preview.
-- Do not edit generated `.docusaurus/`, `build/`, or dependency directories manually.
+- Проект — статический documentation site на Docusaurus 3.9.2, React 19 и TypeScript.
+- Документация находится в `docs/`, публикации — в `blog/`, переиспользуемый UI — в `src/`.
+- Сохраняй route/sidebar ids, ссылки, front matter и локализацию при переносе материалов.
+- Канонический package manager этого checkout — npm с `package-lock.json`; используй `npm ci`.
+- Не редактируй генерируемые `.docusaurus/`, `build/` и dependency directories.
 
-Load only task-relevant AI Dev Team guidance; do not preload all rules, SPEC files, or `LEARNING_LOG.md`.
+## Проверки
+
+- `npm run typecheck`
+- `npm run build`
+- локальный просмотр при необходимости: `npm start`
+
+Обязательный unit/integration runner пока отсутствует. Принятые tests/fixtures, когда они появятся, меняются только отдельным contract decision. Browser/E2E до появления стабильного продукта помечается `BLOCKED_BY_PRODUCT_BASELINE_TOEMATH`.
+
+## Ограничения
+
+- Текущий `docusaurus.config.ts` сохраняет scaffold metadata (`My Site`, facebook/docusaurus links); не заявляй production readiness до отдельного этапа идентификации продукта.
+- Не выполняй deploy, push или merge без явного разрешения пользователя.
