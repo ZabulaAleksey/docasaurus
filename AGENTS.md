@@ -1,6 +1,6 @@
 # ToeMath - local instructions
 
-Before working here, read `~/codex-workspace/AGENTS.md`.
+Before working here, read `~/.codex/AGENTS.md`.
 
 ## Project context
 
