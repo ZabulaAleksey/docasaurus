@@ -4,9 +4,9 @@
 
 Статус: принято для существующего baseline. Миграция не меняет стек без продуктового требования.
 
-## ADR-002 — npm lockfile является каноническим
+## ADR-002 — pnpm lockfile является каноническим
 
-Статус: принято. Используется `npm ci`; смешивание yarn/npm без отдельной миграции запрещено.
+Статус: заменено миграцией 2026-08-24. Используется `pnpm@11.23.0` и `pnpm install --frozen-lockfile`; единственный lock-файл — `pnpm-lock.yaml`. Общий content store и global virtual store уменьшают дублирование, а возврат к npm/yarn требует отдельного решения и полного regression-прогона.
 
 ## ADR-003 — Scaffold metadata не считается production contract
 

@@ -2,7 +2,7 @@
 
 ## Общий контракт
 
-Выполняй один этап за раз. Перед изменениями прочитай `AGENTS.md`, `docs/project-context.md`, `docs/AI_PLAN.md` и `docs/AI_STATUS.md`. Не угадывай product identity и не удаляй scaffold/content без подтверждённой классификации. Минимальные gates каждого этапа: `npm run typecheck` и `npm run build`.
+Выполняй один этап за раз. Перед изменениями прочитай `AGENTS.md`, `docs/project-context.md`, `docs/AI_PLAN.md` и `docs/AI_STATUS.md`. Не угадывай product identity и не удаляй scaffold/content без подтверждённой классификации. Минимальные gates каждого этапа: `pnpm typecheck` и `pnpm build`.
 
 ## Этап 1 — Утвердить product identity
 

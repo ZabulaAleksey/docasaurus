@@ -11,7 +11,7 @@ Docusaurus поддерживает несколько версий докуме
 Выпусти версию проекта 1.0:
 
 ```bash
-npm run docusaurus docs:version 1.0
+pnpm docusaurus docs:version 1.0
 ```
 
 Каталог `docs` будет скопирован в `versioned_docs/version-1.0`, а также будет создан файл `versions.json`.

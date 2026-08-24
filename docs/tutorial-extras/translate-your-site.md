@@ -36,7 +36,7 @@ cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 Запусти сайт с французской локалью:
 
 ```bash
-npm run start -- --locale fr
+pnpm start -- --locale fr
 ```
 
 Локализованный сайт будет доступен по адресу [http://localhost:3000/fr/](http://localhost:3000/fr/), а страница «Начало работы» будет переведена.
@@ -78,11 +78,11 @@ export default {
 Собери сайт для определённой локали:
 
 ```bash
-npm run build -- --locale fr
+pnpm build -- --locale fr
 ```
 
 Или собери сайт сразу со всеми локалями:
 
 ```bash
-npm run build
+pnpm build
 ```
