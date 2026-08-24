@@ -13,7 +13,7 @@ Docusaurus — это **генератор статических сайтов**
 Собери сайт **для production-среды**:
 
 ```bash
-npm run build
+pnpm build
 ```
 
 Статические файлы будут созданы в каталоге `build`.
@@ -23,7 +23,7 @@ npm run build
 Проверь production-сборку локально:
 
 ```bash
-npm run serve
+pnpm serve
 ```
 
 Теперь содержимое каталога `build` доступно по адресу [http://localhost:3000/](http://localhost:3000/).
