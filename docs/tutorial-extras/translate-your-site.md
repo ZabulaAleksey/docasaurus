@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# Перевод сайта
 
-Let's translate `docs/intro.md` to French.
+Переведём `docs/intro.md` на французский язык.
 
-## Configure i18n
+## Настройка i18n
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+Измени `docusaurus.config.js`, чтобы добавить поддержку локали `fr`:
 
 ```js title="docusaurus.config.js"
 export default {
@@ -19,9 +19,9 @@ export default {
 };
 ```
 
-## Translate a doc
+## Перевод документа
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+Скопируй файл `docs/intro.md` в каталог `i18n/fr`:
 
 ```bash
 mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
@@ -29,29 +29,29 @@ mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
 cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
 ```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+Переведи `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` на французский язык.
 
-## Start your localized site
+## Запуск локализованного сайта
 
-Start your site on the French locale:
+Запусти сайт с французской локалью:
 
 ```bash
 npm run start -- --locale fr
 ```
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
+Локализованный сайт будет доступен по адресу [http://localhost:3000/fr/](http://localhost:3000/fr/), а страница «Начало работы» будет переведена.
 
 :::caution
 
-In development, you can only use one locale at a time.
+В режиме разработки одновременно можно использовать только одну локаль.
 
 :::
 
-## Add a Locale Dropdown
+## Добавление списка локалей
 
-To navigate seamlessly across languages, add a locale dropdown.
+Чтобы удобно переключаться между языками, добавь раскрывающийся список локалей.
 
-Modify the `docusaurus.config.js` file:
+Измени файл `docusaurus.config.js`:
 
 ```js title="docusaurus.config.js"
 export default {
@@ -69,19 +69,19 @@ export default {
 };
 ```
 
-The locale dropdown now appears in your navbar:
+В панели навигации появится раскрывающийся список локалей:
 
-![Locale Dropdown](./img/localeDropdown.png)
+![Раскрывающийся список локалей](./img/localeDropdown.png)
 
-## Build your localized site
+## Сборка локализованного сайта
 
-Build your site for a specific locale:
+Собери сайт для определённой локали:
 
 ```bash
 npm run build -- --locale fr
 ```
 
-Or build your site to include all the locales at once:
+Или собери сайт сразу со всеми локалями:
 
 ```bash
 npm run build

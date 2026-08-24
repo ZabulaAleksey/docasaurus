@@ -2,30 +2,30 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Управление версиями документации
 
-Docusaurus can manage multiple versions of your docs.
+Docusaurus поддерживает несколько версий документации.
 
-## Create a docs version
+## Создание версии документации
 
-Release a version 1.0 of your project:
+Выпусти версию проекта 1.0:
 
 ```bash
 npm run docusaurus docs:version 1.0
 ```
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+Каталог `docs` будет скопирован в `versioned_docs/version-1.0`, а также будет создан файл `versions.json`.
 
-Your docs now have 2 versions:
+Теперь у документации две версии:
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+- `1.0` по адресу `http://localhost:3000/docs/` — документация версии 1.0;
+- `current` по адресу `http://localhost:3000/docs/next/` — **будущая, ещё не выпущенная документация**.
 
-## Add a Version Dropdown
+## Добавление списка версий
 
-To navigate seamlessly across versions, add a version dropdown.
+Чтобы удобно переходить между версиями, добавь раскрывающийся список версий.
 
-Modify the `docusaurus.config.js` file:
+Измени файл `docusaurus.config.js`:
 
 ```js title="docusaurus.config.js"
 export default {
@@ -43,13 +43,13 @@ export default {
 };
 ```
 
-The docs version dropdown appears in your navbar:
+В панели навигации появится раскрывающийся список версий документации:
 
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
+![Раскрывающийся список версий документации](./img/docsVersionDropdown.png)
 
-## Update an existing version
+## Обновление существующей версии
 
-It is possible to edit versioned docs in their respective folder:
+Версионированную документацию можно редактировать в соответствующем каталоге:
 
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+- `versioned_docs/version-1.0/hello.md` обновляет `http://localhost:3000/docs/hello`;
+- `docs/hello.md` обновляет `http://localhost:3000/docs/next/hello`.
