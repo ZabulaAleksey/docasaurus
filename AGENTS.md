@@ -1,6 +1,6 @@
 # ToeMath — локальные инструкции
 
-Перед работой прочитай `~/.codex/AGENTS.md`; этот файл содержит только project-specific delta. Этапы находятся в `prompts/STAGES.md`, состояние — в `docs/AI_STATUS.md`.
+Перед работой прочитай `~/.codex/AGENTS.md`; этот файл содержит только project-specific delta. Текущий этап, status, blockers, evidence и NEXT находятся в выбранном record `docs/STAGES.md`.
 
 ## Контекст
 

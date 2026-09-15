@@ -41,6 +41,17 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          // Project governance documents are not product site content.
+          exclude: [
+            'STAGES.md',
+            'CONTEXT_COMPATIBILITY.md',
+            'ARCHITECTURE.md',
+            'DECISIONS.md',
+            'LEARNING_LOG.md',
+            'ROADMAP.md',
+            'project-context.md',
+            'notes/**',
+          ],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:

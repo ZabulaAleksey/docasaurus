@@ -1,6 +1,8 @@
 # Дорожная карта
 
-1. Governance overlay и единый источник этапов — выполнено в migration-ветке.
+1. Governance overlay сохранён; перенос единого execution state в
+   `docs/STAGES.md` подготовлен в isolated `feature/docs-stages-canonical`
+   и ждёт разрешённого merge. Product baseline не повышался.
 2. Утвердить product identity, audience, domain/baseUrl, repository/edit links и locales — запланировано.
 3. Провести content inventory: отделить ToeMath материалы от Docusaurus tutorial/scaffold — запланировано.
 4. Определить information architecture, sidebar/routes и broken-link policy — запланировано.
