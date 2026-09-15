@@ -44,15 +44,12 @@ Scope: SPEC/ADR и конфигурационные значения. Non-goals:
   этими решениями, согласованная Docusaurus config и build PASS. Это
   разблокирует Stage 1 и последующий content inventory; scaffold pages
   до этого не удаляются.
-- `USER-TOEMATH-STAGES-INTEGRATION` — `PENDING`, condition: isolated
-  `feature/docs-stages-canonical` commit/push и build/selector read-back
-  готовы. Безопасное действие: разрешить merge этой точной ветки в `main`
-  после review сохранённых legacy facts и docs-plugin exclusion.
-  Ожидаемое evidence: clean main ancestry, GitHub default branch содержит
-  `docs/STAGES.md`, но не старые `prompts/STAGES.md`, `docs/AI_PLAN.md`,
-  `docs/AI_STATUS.md`; canonical adapter PASS и build не публикует
-  internal STAGES/notes. Это разблокирует единый state owner,
-  product decision остаётся отдельным blocker.
+- `USER-TOEMATH-STAGES-INTEGRATION` — `DONE`: пользователь разрешил merge
+  `feature/docs-stages-canonical`; `main` fast-forward до `8ee1d60` и
+  опубликован. GitHub read-back подтвердил только `docs/STAGES.md` из четырёх
+  state paths. Selector `TOEMATH-PRODUCT-IDENTITY`, `blocked` и NEXT проходят
+  canonical adapter; `pnpm typecheck` и `pnpm build` прошли. Product decision
+  остаётся отдельным blocker.
 
 ## TOEMATH-CONTENT-INVENTORY — Этап 2: Content inventory и классификация
 
